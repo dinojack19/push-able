@@ -12,8 +12,15 @@ station_id = [
     3,
     1
 ]
+temprature = [
+    32,
+    27,
+    25,
+    26,
+    28
+]
 i=1 
  
 for i in range(0, len(station_names)):
-    info_text = f"The temperature at {station_names[i]} station (ID: {station_id[i]}) is {3:.2f} degrees Celsius."
+    info_text = f"The temperature at {station_names[i]} station (ID: {station_id[i]}) is {temprature[i]:.2f} degrees Celsius."
     print(info_text)
